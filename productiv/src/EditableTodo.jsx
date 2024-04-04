@@ -4,10 +4,13 @@ import TodoForm from "./TodoForm";
 
 /** Show editable todo item.
  *
- * Props
+ * Props:
  * - todo { id, title, description, priority }
  * - update(): fn to call to update a todo
  * - remove(): fn to call to remove a todo
+ *
+ * State:
+ * -isEditing
  *
  * EditableTodoList -> EditableTodo -> { Todo, TodoForm }
  */
@@ -17,7 +20,7 @@ function EditableTodo({ todo, update, remove }) {
 
   /** Toggle if this is being edited */
   function toggleEdit() {
-    setIsEditing(true);
+    setIsEditing(curr => !curr);
   }
 
   /** Call remove fn passed to this. */
@@ -27,8 +30,8 @@ function EditableTodo({ todo, update, remove }) {
 
   /** Edit form saved; toggle isEditing and update in ancestor. */
   function handleSave(formData) {
-    setIsEditing(false);
-    update({ ...formData, id: todo.id });
+    toggleEdit();
+    update({...formData});
   }
 
   return (
@@ -37,12 +40,7 @@ function EditableTodo({ todo, update, remove }) {
       {isEditing
 
         ? <TodoForm
-          initialData={
-            {
-              title: todo.title,
-              desription: todo.description,
-              priority: todo.priority
-            }}
+          initialData={todo}
           handleSave={handleSave}
         />
 
@@ -59,7 +57,7 @@ function EditableTodo({ todo, update, remove }) {
               Del
             </button>
           </div>
-          <Todo todo={todo}/>
+          <Todo todo={todo} />
         </div>
       }
     </div>

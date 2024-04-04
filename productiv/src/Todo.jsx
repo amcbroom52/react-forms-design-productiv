@@ -5,15 +5,19 @@ import React from "react";
  * Props:
  * - todo: like { id, title, description, priority }
  *
+ * State:
+ * - none
+ *
  * { EditableTodo, TopTodo } -> Todo
  **/
 
-function Todo({ id, title, description, priority }) {
+function Todo({ todo }) {
+  const { id, title, description, priority } = todo;
   return (
-      <div className="Todo" id={id}>
-        <div><b>{title}</b> <small>Priority: {priority}</small></div>
-        <div><small>{description}</small></div>
-      </div>
+    <div className="Todo" id={id}>
+      <div><b>{title}</b> <small>Priority: {priority}</small></div>
+      <div><small>{description}</small></div>
+    </div>
   );
 }
 
