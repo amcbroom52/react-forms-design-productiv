@@ -1,0 +1,405 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Editable Todo > changes after editing 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <form
+      class="NewTodoForm"
+    >
+      <div
+        class="mb-3"
+      >
+        <input
+          aria-label="Title"
+          class="form-control"
+          id="newTodo-title"
+          name="title"
+          placeholder="Title"
+          value="title"
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <textarea
+          aria-label="Description"
+          class="form-control"
+          id="newTodo-description"
+          name="description"
+          placeholder="Description"
+        >
+          description
+        </textarea>
+      </div>
+      <div
+        class="mb-3 d-flex justify-content-between"
+      >
+        <div
+          class="w-75 d-flex justify-content-between"
+        >
+          <label
+            class="d-inline-flex"
+            for="newTodo-priority"
+          >
+            Priority:  
+          </label>
+          <select
+            class="form-control form-control-sm d-inline-flex"
+            id="newTodo-priority"
+            name="priority"
+          >
+            <option
+              value="1"
+            >
+              Ultra-Über
+            </option>
+            <option
+              value="2"
+            >
+              Über
+            </option>
+            <option
+              value="3"
+            >
+              Meh
+            </option>
+          </select>
+        </div>
+        <button
+          class="btn-primary rig btn btn-sm NewTodoForm-addBtn"
+        >
+          Gø!
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Editable Todo > matches snapshot after edit 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <form
+      class="NewTodoForm"
+    >
+      <div
+        class="mb-3"
+      >
+        <input
+          aria-label="Title"
+          class="form-control"
+          id="newTodo-title"
+          name="title"
+          placeholder="Title"
+          value="title"
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <textarea
+          aria-label="Description"
+          class="form-control"
+          id="newTodo-description"
+          name="description"
+          placeholder="Description"
+        >
+          description
+        </textarea>
+      </div>
+      <div
+        class="mb-3 d-flex justify-content-between"
+      >
+        <div
+          class="w-75 d-flex justify-content-between"
+        >
+          <label
+            class="d-inline-flex"
+            for="newTodo-priority"
+          >
+            Priority:  
+          </label>
+          <select
+            class="form-control form-control-sm d-inline-flex"
+            id="newTodo-priority"
+            name="priority"
+          >
+            <option
+              value="1"
+            >
+              Ultra-Über
+            </option>
+            <option
+              value="2"
+            >
+              Über
+            </option>
+            <option
+              value="3"
+            >
+              Meh
+            </option>
+          </select>
+        </div>
+        <button
+          class="btn-primary rig btn btn-sm NewTodoForm-addBtn"
+        >
+          Gø!
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Editable Todo > matches snapshot after editing 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <form
+      class="NewTodoForm"
+    >
+      <div
+        class="mb-3"
+      >
+        <input
+          aria-label="Title"
+          class="form-control"
+          id="newTodo-title"
+          name="title"
+          placeholder="Title"
+          value="title"
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <textarea
+          aria-label="Description"
+          class="form-control"
+          id="newTodo-description"
+          name="description"
+          placeholder="Description"
+        >
+          description
+        </textarea>
+      </div>
+      <div
+        class="mb-3 d-flex justify-content-between"
+      >
+        <div
+          class="w-75 d-flex justify-content-between"
+        >
+          <label
+            class="d-inline-flex"
+            for="newTodo-priority"
+          >
+            Priority:  
+          </label>
+          <select
+            class="form-control form-control-sm d-inline-flex"
+            id="newTodo-priority"
+            name="priority"
+          >
+            <option
+              value="1"
+            >
+              Ultra-Über
+            </option>
+            <option
+              value="2"
+            >
+              Über
+            </option>
+            <option
+              value="3"
+            >
+              Meh
+            </option>
+          </select>
+        </div>
+        <button
+          class="btn-primary rig btn btn-sm NewTodoForm-addBtn"
+        >
+          Gø!
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Editable Todo > matches snapshot after pressing edit 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <form
+      class="NewTodoForm"
+    >
+      <div
+        class="mb-3"
+      >
+        <input
+          aria-label="Title"
+          class="form-control"
+          id="newTodo-title"
+          name="title"
+          placeholder="Title"
+          value="title"
+        />
+      </div>
+      <div
+        class="mb-3"
+      >
+        <textarea
+          aria-label="Description"
+          class="form-control"
+          id="newTodo-description"
+          name="description"
+          placeholder="Description"
+        >
+          description
+        </textarea>
+      </div>
+      <div
+        class="mb-3 d-flex justify-content-between"
+      >
+        <div
+          class="w-75 d-flex justify-content-between"
+        >
+          <label
+            class="d-inline-flex"
+            for="newTodo-priority"
+          >
+            Priority:  
+          </label>
+          <select
+            class="form-control form-control-sm d-inline-flex"
+            id="newTodo-priority"
+            name="priority"
+          >
+            <option
+              value="1"
+            >
+              Ultra-Über
+            </option>
+            <option
+              value="2"
+            >
+              Über
+            </option>
+            <option
+              value="3"
+            >
+              Meh
+            </option>
+          </select>
+        </div>
+        <button
+          class="btn-primary rig btn btn-sm NewTodoForm-addBtn"
+        >
+          Gø!
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Editable Todo > matches snapshot before edit 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <div
+      class="mb-3"
+    >
+      <div
+        class="float-end text-sm-end"
+      >
+        <button
+          class="EditableTodo-toggle btn-link btn btn-sm"
+        >
+          Edit
+        </button>
+        <button
+          class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+        >
+          Del
+        </button>
+      </div>
+      <div
+        class="Todo"
+        id="1"
+      >
+        <div>
+          <b>
+            title
+          </b>
+           
+          <small>
+            Priority: 1
+          </small>
+        </div>
+        <div>
+          <small>
+            description
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Editable Todo > matches snapshot before pressing edit 1`] = `
+<DocumentFragment>
+  <div
+    class="EditableTodo"
+  >
+    <div
+      class="mb-3"
+    >
+      <div
+        class="float-end text-sm-end"
+      >
+        <button
+          class="EditableTodo-toggle btn-link btn btn-sm"
+        >
+          Edit
+        </button>
+        <button
+          class="EditableTodo-delBtn btn-link btn btn-sm text-danger"
+        >
+          Del
+        </button>
+      </div>
+      <div
+        class="Todo"
+        id="1"
+      >
+        <div>
+          <b>
+            title
+          </b>
+           
+          <small>
+            Priority: 1
+          </small>
+        </div>
+        <div>
+          <small>
+            description
+          </small>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
