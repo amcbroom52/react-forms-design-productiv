@@ -1,0 +1,135 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header component > matches snapshot 1`] = `
+<DocumentFragment>
+  <header
+    class="container-fluid pt-4 pb-1"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Prøductïv
+      </h1>
+      <p
+        class="lead"
+      >
+        The best name in todo list management.
+      </p>
+    </div>
+    <div
+      class="container Header-quote-area"
+    >
+      <p
+        class="Header-quote"
+      />
+      <button
+        class="Header-button"
+      >
+        Click here for an inspirational quøte!
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Header component > matches snapshot 2`] = `
+<DocumentFragment>
+  <header
+    class="container-fluid pt-4 pb-1"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Prøductïv
+      </h1>
+      <p
+        class="lead"
+      >
+        The best name in todo list management.
+      </p>
+    </div>
+    <div
+      class="container Header-quote-area"
+    >
+      <p
+        class="Header-quote"
+      />
+      <button
+        class="Header-button"
+      >
+        Click here for an inspirational quøte!
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Header component > matches snapshot with quote 1`] = `
+<DocumentFragment>
+  <header
+    class="container-fluid pt-4 pb-1"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Prøductïv
+      </h1>
+      <p
+        class="lead"
+      >
+        The best name in todo list management.
+      </p>
+    </div>
+    <div
+      class="container Header-quote-area"
+    >
+      <p
+        class="Header-quote"
+      >
+        randomness -Adrian McBroom
+      </p>
+      <button
+        class="Header-button"
+      >
+        Nü quøte
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;
+
+exports[`Header component > matches snapshot without quote 1`] = `
+<DocumentFragment>
+  <header
+    class="container-fluid pt-4 pb-1"
+  >
+    <div
+      class="container"
+    >
+      <h1>
+        Prøductïv
+      </h1>
+      <p
+        class="lead"
+      >
+        The best name in todo list management.
+      </p>
+    </div>
+    <div
+      class="container Header-quote-area"
+    >
+      <p
+        class="Header-quote"
+      />
+      <button
+        class="Header-button"
+      >
+        Click here for an inspirational quøte!
+      </button>
+    </div>
+  </header>
+</DocumentFragment>
+`;

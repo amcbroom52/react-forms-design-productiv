@@ -24,7 +24,6 @@ function TodoForm({ initialData = DEFAULT_INITIAL_DATA, handleSave }) {
   /** Update form input. */
   function handleChange(evt) {
     const { name, value } = evt.target;
-    console.log(typeof value);
 
     setFormData(currData => ({
       ...currData,

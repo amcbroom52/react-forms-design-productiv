@@ -47,7 +47,6 @@ describe("EditableTodoList component", function () {
     it("contains correct Todo values", function() {
         const {container} = render(<EditableTodoList todos={TODOS} />);
         let editButtons = container.querySelectorAll(".EditableTodo-toggle")
-        console.log("buttons", editButtons);
         expect(editButtons.length).toEqual(3);
 
         fireEvent.click(editButtons[0]);
