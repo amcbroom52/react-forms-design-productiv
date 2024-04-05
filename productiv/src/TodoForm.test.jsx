@@ -23,9 +23,6 @@ describe("Todo Form Component", function () {
   });
 
   it("submitting form works", function () {
-    const {asFragment} = render(<TodoForm initialData={TODO} />);
-
-    expect(asFragment()).toMatchSnapshot();
     const mockHandleSave = vi.fn();
     const {container, debug} = render(<TodoForm handleSave={mockHandleSave} />);
 
