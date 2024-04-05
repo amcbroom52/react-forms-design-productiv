@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Todo component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Todo"
+    id="1"
+  >
+    <div>
+      <b>
+        title
+      </b>
+       
+      <small>
+        Priority: 1
+      </small>
+    </div>
+    <div>
+      <small>
+        description
+      </small>
+    </div>
+  </div>
+</DocumentFragment>
+`;
